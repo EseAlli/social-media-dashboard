@@ -20,14 +20,19 @@
       <header>
         <h1>Social Media Dashboard</h1>
         <p>Total Followers: 23,004</p>
+        <hr />
+
+        <div class="toggle">
+          <p>Dark Mode</p>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
+        </div>
       </header>
-      <hr />
-      <div class="toggle">
-        <p>Dark Mode</p>
-        <input type="checkbox" />
-      </div>
+
       <div class="following">
-        <section>
+        <section class="facebook">
           <p class="handle">
             <img src="./images/icon-facebook.svg" alt="facebook" />@nathanf
           </p>
@@ -35,99 +40,116 @@
             <h2>1987</h2>
             <p>Followers</p>
           </div>
-          <p>12 Today</p>
+          <p class="stats up">12 Today</p>
         </section>
-        <section>
+        <section class="twitter">
           <p class="handle">@nathanf</p>
           <div class="followers">
             <h2>1044</h2>
             <p>Followers</p>
           </div>
-          <p>99 Today</p>
+          <p class="stats up">99 Today</p>
         </section>
-        <section>
+        <section class="instagram">
           <p class="handle">@realnathanf</p>
           <div class="followers">
             <h2>11k</h2>
             <p>Followers</p>
           </div>
-          <p>1099 Today</p>
+          <p class="stats up">1099 Today</p>
         </section>
 
-        <section>
+        <section class="youtube">
           <p class="handle">Nathan F.</p>
           <div class="followers">
             <h2>8239</h2>
             <p>Subscribers</p>
           </div>
-          <p>144 Today</p>
+          <p class="stats down">144 Today</p>
         </section>
       </div>
       <section class="overview">
         <h3>Overview - Today</h3>
         <section>
           <div>
-            <p>Page Views</p>
+            <p class="stat">Page Views</p>
+            <img src="./images/icon-facebook.svg" alt="facebook" />
           </div>
           <div>
             <h4>87</h4>
-            <span>3%</span>
+            <p class="stats up">3%</p>
           </div>
         </section>
         <section>
           <div>
-            <p>Likes</p>
+            <p class="stat">Likes</p>
+            <img src="./images/icon-facebook.svg" alt="facebook" />
           </div>
           <div>
             <h4>52</h4>
-            <p>2%</p>
+            <p class="stats down">2%</p>
           </div>
         </section>
 
         <section>
           <div>
-            <p>Likes</p>
+            <p class="stat">Likes</p>
+            <img src="./images/icon-instagram.svg" alt="instagram" />
           </div>
           <div>
             <h4>5462</h4>
-            <p>2257%</p>
+            <p class="stats up">2257%</p>
           </div>
         </section>
         <section>
           <div>
-            <p>Profile Views</p>
+            <p class="stat">Profile Views</p>
+            <img src="./images/icon-instagram.svg" alt="instagram" />
           </div>
           <div>
             <h4>52k</h4>
-            <p>1375%</p>
+            <p class="stats up">1375%</p>
           </div>
         </section>
         <section>
           <div>
-            <p>Retweets</p>
+            <p class="stat">Retweets</p>
+            <img src="./images/icon-twitter.svg" alt="twitter" />
           </div>
           <div>
             <h4>117</h4>
-            <p>303%</p>
+            <p class="stats up">303%</p>
+          </div>
+        </section>
+        <section>
+          <div>
+            <p class="stat">Likes</p>
+            <img src="./images/icon-twitter.svg" alt="twitter" />
+          </div>
+          <div>
+            <h4>507</h4>
+            <p class="stats up">303%</p>
           </div>
         </section>
 
         <section>
           <div>
-            <p>Likes</p>
+            <p class="stat">Likes</p>
+            <img src="./images/icon-youtube.svg" alt="youtube" />
           </div>
           <div>
-            <h4>507</h4>
-            <p>19%</p>
+            <h4>107</h4>
+            <p class="stats down">553%</p>
           </div>
         </section>
         <section>
           <div>
-            <p>Total Views</p>
+            <p class="stat">Total Views</p>
+            <img src="./images/icon-youtube.svg" alt="youtube" />
           </div>
           <div>
             <h4>1407</h4>
-            <p>12%</p>
+            <p class="stats down">12%</p>
           </div>
         </section>
       </section>
