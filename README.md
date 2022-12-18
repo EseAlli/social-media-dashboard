@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-uV0TESEkYc](https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-uV0TESEkYc)
+- Live Site URL: [https://github.com/EseAlli/social-media-dashboard](https://github.com/EseAlli/social-media-dashboard)
 
 ## My process
 
@@ -47,5 +47,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Eseoghene Alli](https://esealli.github.io/)
+- Frontend Mentor - [@EseAlli](https://www.frontendmentor.io/profile/EseAlli)
