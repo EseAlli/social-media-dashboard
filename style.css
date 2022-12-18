@@ -41,6 +41,7 @@ header {
 header h1 {
   font-size: 1.45rem;
   margin: 0.45rem 0;
+  color: var(--secondary-text);
 }
 
 header p {
@@ -136,6 +137,14 @@ input:checked + .slider:before {
   border-top-width: 5px;
   border-top-style: solid;
   width: 100%;
+}
+
+.following h2 {
+  color: var(--secondary-text);
+}
+
+.following p {
+  color: var(--primary-text);
 }
 
 .following section:hover {
@@ -246,6 +255,7 @@ h2 {
 
 .overview h4 {
   font-size: 1.5rem;
+  color: var(--secondary-text);
 }
 
 .overview section div {
