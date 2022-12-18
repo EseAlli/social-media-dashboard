@@ -21,7 +21,7 @@
 }
 body {
   font-family: "Inter", sans-serif;
-  background-color: var(--bg);
+  background-image: linear-gradient(180deg, var(--bg-pattern), var(--bg));
   min-height: 100vh;
   display: flex;
   align-items: center;
