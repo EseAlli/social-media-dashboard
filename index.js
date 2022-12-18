@@ -1,7 +1,7 @@
 const root = document.documentElement.style;
 const toggleTheme = document.querySelector(".switch input");
 const themeText = document.querySelector(".toggle p");
-let mode = "light";
+let mode = "dark";
 
 toggleTheme.addEventListener("click", toggle);
 
