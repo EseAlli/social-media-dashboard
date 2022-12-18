@@ -16,7 +16,7 @@ function lightTheme() {
   root.setProperty("--card-bg", "hsl(227, 47%, 96%)");
   root.setProperty("--primary-text", "hsl(228, 12%, 44%)");
   root.setProperty("--secondary-text", "hsl(230, 17%, 14%)");
-  root.setProperty("--toggle", "hsl(210, 78%, 56%)");
+  root.setProperty("--toggle", "hsl(230, 22%, 74%)");
 }
 
 function darkTheme() {
@@ -26,5 +26,4 @@ function darkTheme() {
   root.setProperty("--card-bg", "hsl(228, 28%, 20%)");
   root.setProperty("--primary-text", "hsl(228, 34%, 66%)");
   root.setProperty("--secondary-text", "hsl(0, 0%, 100%)");
-  root.setProperty("--toggle", "hsl(210, 78%, 56%)");
 }
